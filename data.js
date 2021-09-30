@@ -73,7 +73,7 @@ function  chatTemplate(transaction){
                 <p id = "payment-detail">you requested</p>
             </div>
             <div class="bottom-details">
-                <button type="button">Cancel</button>
+                <button id = "cancel-button" type="button">Cancel</button>
                 <img style="height: auto;" src="assets/outline_chevron_right_black_18dp.png" alt="next">
             </div>
         </div>
@@ -123,8 +123,8 @@ function  chatTemplate(transaction){
             </div>
             <div class="bottom-details">
                 <div>
-                <button type="button">Pay</button>
-                <button type="button">Decline</button>
+                <button id = "pay-button" type="button">Pay</button>
+                <button id = "decline-button" type="button">Decline</button>
                 </div>
                 <img style="height: auto;" src="assets/outline_chevron_right_black_18dp.png" alt="next">
             </div>
