@@ -131,3 +131,23 @@
 #right-date{
     align-self: flex-end;
 }
+
+#pay-button, #cancel-button, #decline-button{
+    background-color: transparent;
+  border: 2px solid black;
+  border-radius: 8px;
+  font: 18px bold Segoe UI;
+  transition: transform 500ms;
+}
+
+#pay-button:hover{
+    transform: scale(1.1);
+  background-color: rgb(67, 214, 67);
+  cursor: pointer;
+}
+
+#decline-button:hover, #cancel-button:hover{
+    transform: scale(1.1);
+    background-color: rgb(201, 88, 88);
+    cursor: pointer;
+}
