@@ -51,7 +51,7 @@ function  chatTemplate(transaction){
             <div class="bottom-details">
                 <div>
                     <p id = "id-text">Transaction Id</p>
-                    <p id = "transaction-id">i${transaction.id}</p>
+                    <p id = "transaction-id">${transaction.id}</p>
                 </div>
                 <div>
                 <img style="height: auto;" src="assets/outline_chevron_right_black_18dp.png" alt="next">
@@ -99,7 +99,7 @@ function  chatTemplate(transaction){
             <div class="bottom-details">
                 <div>
                     <p id = "id-text">Transaction Id</p>
-                    <p id = "transaction-id">i${transaction.id}</p>
+                    <p id = "transaction-id">${transaction.id}</p>
                 </div>
                 <div>
                 <img style="height: auto;" src="assets/outline_chevron_right_black_18dp.png" alt="next">
